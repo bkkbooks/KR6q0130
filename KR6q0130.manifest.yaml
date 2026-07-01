@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6q0130/v1
+canonical_location: https://kanripo.org/bkk/KR6q0130/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 寶鏡三昧原宗辨謬說
+  identifiers:
+    alt_id:
+    - X63n1238
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X63/X63n1238.xml
+    old_id: X63n1238
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6q0130_000.yaml, hash: 'sha256:3c88c96cac337b50881cd1d562b06934752608a4134c63335ed3f223f2518d59'}
+  - {seq: 1, filename: KR6q0130_001.yaml, hash: 'sha256:71172882838cf93252ce1fbacbd9c60a0ded0a8f2aae60901b6897822f582c0a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6q0130_001.markers.yaml, hash: 'sha256:204cfee3f4b77eecb3b015df029b831e86d97bbae909f78a28a1ffb6ba609890'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6q0130_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 3024
+  label: 寶鏡三昧原宗辨謬說
+  type: juan
+  level: 1
+hash: sha256:3f66e7362c7f074f601cc740740362c02d987c85d3da484ecf7e277576849ee7
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
