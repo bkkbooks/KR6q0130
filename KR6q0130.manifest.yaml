@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6q0130_000.yaml, hash: 'sha256:3c88c96cac337b50881cd1d562b06934752608a4134c63335ed3f223f2518d59'}
-  - {seq: 1, filename: KR6q0130_001.yaml, hash: 'sha256:71172882838cf93252ce1fbacbd9c60a0ded0a8f2aae60901b6897822f582c0a'}
+  - {seq: 1, filename: KR6q0130_001.yaml, hash: 'sha256:1b7a3c3ba4fdc2acfdcecb44f70db990a7ae3c8ee64a8735391f5dbafcf19db2'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6q0130_001.markers.yaml, hash: 'sha256:204cfee3f4b77eecb3b015df029b831e86d97bbae909f78a28a1ffb6ba609890'}
+  - {seq: 0, role: markers, filename: assets/KR6q0130_000.markers.yaml, hash: 'sha256:d3bb2657bd7f23ef74cbd4f16ef6cab8a3b66e2751283c3b6c0fa88f6feef99b'}
+  - {seq: 1, role: markers, filename: assets/KR6q0130_001.markers.yaml, hash: 'sha256:a82a21bb146ade90b637e26792a7c29787fb9a048ce84073740822bad8dcdd8d'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 寶鏡三昧原宗辨謬說
   type: juan
   level: 1
-hash: sha256:3f66e7362c7f074f601cc740740362c02d987c85d3da484ecf7e277576849ee7
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:530e34a67c5af8645ec1307ad1dc6a29d60dfe6b7cda9db6d3ba33ff4c3515f9
