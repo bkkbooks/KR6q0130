@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6q0130/v1
 canonical_location: https://kanripo.org/bkk/KR6q0130/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 寶鏡三昧原宗辨謬說
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6q0130_000.yaml, hash: 'sha256:3c88c96cac337b50881cd1d562b06934752608a4134c63335ed3f223f2518d59'}
-  - {seq: 1, filename: KR6q0130_001.yaml, hash: 'sha256:1b7a3c3ba4fdc2acfdcecb44f70db990a7ae3c8ee64a8735391f5dbafcf19db2'}
+  - {seq: 1, filename: KR6q0130_001.yaml, hash: 'sha256:c298907a10d3331789c04663c01c76ea153aa165ae1e20516a70bf7dca66df15'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6q0130_000.markers.yaml, hash: 'sha256:d3bb2657bd7f23ef74cbd4f16ef6cab8a3b66e2751283c3b6c0fa88f6feef99b'}
-  - {seq: 1, role: markers, filename: assets/KR6q0130_001.markers.yaml, hash: 'sha256:a82a21bb146ade90b637e26792a7c29787fb9a048ce84073740822bad8dcdd8d'}
+  - {seq: 1, role: markers, filename: assets/KR6q0130_001.markers.yaml, hash: 'sha256:6715f49d29a3896ef0cd7bad760da6b6e3570e9441f0b9730c236dd19e7581d7'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,4 +37,7 @@ table_of_contents:
   label: 寶鏡三昧原宗辨謬說
   type: juan
   level: 1
-hash: sha256:530e34a67c5af8645ec1307ad1dc6a29d60dfe6b7cda9db6d3ba33ff4c3515f9
+hash: sha256:8439af36166f1776338a49c7a3e77388892aa5299158145adbdcc314814c86b1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
